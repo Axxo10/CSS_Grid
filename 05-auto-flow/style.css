@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornsilk;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    direction: ltr;
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    background-color: orangered;
+    display: grid;
+grid-template-columns: repeat(3, 12fr) ;
+grid-template-rows: repeat(3, 12fr);
+gap: 12px;
+
+}
+.item{
+    background-color: dimgray;
+    text-align: center;
+    color: beige;
+
+}
